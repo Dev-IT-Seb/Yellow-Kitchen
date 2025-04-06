@@ -1,0 +1,193 @@
+/** ----------------------------------- 
+        RESET VALEUR PAR DEFAUT
+**/
+* {
+    /** MARGIN AUTOUR DU HEADER **/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** ------------------------------------------------------------------------------ **/
+/** -------------------------------- 
+            FONT FAMILY
+**/
+/**      MARTEL SANS     **/
+/** BOLD **/
+@font-face {
+    font-family:"Martel Sans Bold";
+    src: url("../fonts/Martel/MartelSans-Bold.ttf");
+}
+/** REGULAR **/
+@font-face {
+    font-family:"Martel Sans Regular";
+    src: url("../fonts/Martel/MartelSans-Bold.ttf");
+}
+/** ------------- **/
+/**        POPPINS        **/
+@font-face {
+    font-family:"Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+/** ****************************************************************************** **/
+                        /**          HEADER    **/
+/** ****************************************************************************** **/
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #347488;
+    height: 5rem;
+}
+.container img:nth-child(1){
+    margin-left: 0rem;
+    margin-right: 60rem;
+    width: 10rem;
+    height: 2rem;
+}
+.container img:nth-child(2){
+    height: 1.4rem ;
+    width: 4rem;
+    margin-right: 1rem;
+}
+.container img:nth-child(3){
+    width: 2.8rem;
+    height: 1.8rem;
+    margin-left: 1.5rem;
+}
+.container img:nth-child(4){
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1.5rem;
+}
+/** ****************************************************************************** **/
+                        /**          MAIN         **/
+/** ****************************************************************************** **/
+.principal {
+    margin-left: 0rem;
+    margin-top: -2rem;
+}
+.row-two {
+    width: 28rem;
+    height: 15rem;
+    margin-left: 45rem;
+}
+.row-two h1{
+    margin-top: 15rem;
+    margin-left: 1rem;
+    font-size: 35px;
+    font-family: fantasy;
+}
+/** ASSIETTE **/
+.row-two img{
+    width: 35rem;
+    height: 35rem;
+}
+.assiette {
+    margin-left: 35rem;
+    margin-top: -8rem;
+}
+/** BUTTONS **/
+.row-three {
+    width: 40rem;
+}
+.conteneur-three {
+    margin-top: -9rem;
+    height: 5rem;
+    width: 30rem;
+    margin-left: 41rem;
+}
+.row-three a:nth-child(1){
+    color: #ffffff;
+    padding: 0.5rem;
+    font-size: 17px;
+    font-family: cursive;
+    border: solid 1px #000000;
+    text-align: center;
+    margin-left: 5rem;
+    background-color: #000000;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.row-three a:last-child{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: cursive;
+    border: solid 1px black;
+    text-align: center;
+    background-color: #000000;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    margin-top: -3.2rem;
+    border-radius: 5%;
+    text-decoration: none;
+}
+/** ------------------------------------------------------------------------------ **/
+/** CONTAINER BURGER**/
+.conteneur-burger{
+    margin-top: 27rem;
+    margin-left: 55rem;
+}
+/** TITLE H1 MAIN**/
+.conteneur-burger h1{
+    width: 250px;
+    font-size: 19px;
+    font-family: "Poppins";
+    margin-bottom: 0.2rem;
+    margin-top: -2rem;
+}
+.plat-bruger {
+    display: flex;
+    flex-direction: column;
+    
+}
+.plat-bruger img:first-child{
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+.plat-bruger img:last-child{
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+/** ------------------------------------------------------------------------------ **/
+/** CONTAINER RIZ**/
+.conteneur-riz {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16rem;
+    margin-top: -20rem;
+}
+.conteneur-riz img:first-child{
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+.conteneur-riz img:last-child{
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+/** ------------------------------------------------------------------------------ **/
+/** CONTAINER SALADE **/
+.conteneur-salade {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32rem;
+    margin-top: -20rem;
+}
+.conteneur-salade img:first-child{
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+.conteneur-salade img:last-child{
+    width: 15rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+/** ****************************************************************************** **/
+                        /**          FOOTER    **/
+/** ****************************************************************************** **/
+/** ****************************************************************************** **/
